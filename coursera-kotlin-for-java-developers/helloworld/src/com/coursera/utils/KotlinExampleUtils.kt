@@ -9,7 +9,7 @@ fun exampleLoop() : Unit  {
 fun exampleLoop2() = listOf(1 in 1..9)
 
 fun isValidIdentifier(s: String): Boolean {
-    var isValid : Boolean = true
+    var isValid = true
     if(s.isEmpty()) return false
     s.forEachIndexed { index, c ->
         isValid = isValid && when (c) {
